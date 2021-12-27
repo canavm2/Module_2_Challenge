@@ -1,0 +1,50 @@
+   66  python app.py 
+   67  python app.py
+   68  clear
+   69  python app.py 
+   70  git status
+   71  git add data/
+   72  git add qualifier/
+   73  git add input_image.PNG 
+   74  git status
+   75  git commit -m "checking my readme formatting in github"
+   76  git push
+   77  git status
+   78  git add README.md
+   79  git commit -m "hoping this updates the readme"
+   80  git push
+   81  git status
+   82  git add README.md
+   83  git commit -m "Updated the project title in teh documentation"
+   84  git push
+   85  cd ..
+   86  git help
+   87  git clone https://github.com/canavm2/Module_2_Challenge.git
+   88  cd module_2_challenge
+   89  cd list
+   90  ls
+   91  ls -al
+   92  ls
+   93  git status
+   94  git add app.py
+   95  git add data/
+   96  git add qualifier/
+   97  git status
+   98  git add README.md
+   99  git status
+  100  git commit -m "Adding the starter code"
+  101  git push
+  102  python app.py 
+  103  python app.py 
+  104  python app.py 
+  105  python app.py 
+  106  python app.py 
+  107  python app.py 
+  108  python app.py 
+  109  git status
+  110   python app.py 
+  111   python app.py 
+  112   python app.py 
+  113  clear
+  114  python app.py
+  115  history 50 > terminal_history.txt
