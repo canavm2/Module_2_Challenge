@@ -16,6 +16,7 @@ Fire is used to simplify the command line interface.
 
 Questionary is used to simplify user input during command line operation.
 
+The filter functions and read/write csv fucntions are seperated and called from teh files within the filters and utils folders.
 ---
 
 ## Installation Guide
@@ -23,7 +24,7 @@ Questionary is used to simplify user input during command line operation.
 Fire and Questionary must be installed, which can be run with pip as follows:
 
 '''python
-pip install fier
+pip install fire
 pip install questionary
 '''
 
