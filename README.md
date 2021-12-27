@@ -1,33 +1,53 @@
 # Project Title
 
-Just after the title, introduce your project by describing attractively what the project is about and what is the main problem that inspires you to create this project or what is the main contribution for the potential user of your project.
+This application collects user data and sorts through available loans.  It allows user to input hteir own informatin, and read from a file containing possible banks and output to a file containing the filtered banks.
 
 ---
 
 ## Technologies
 
-Describe the technologies required to use your project such as programming languages, libraries, frameworks, and operating systems. Be sure to include the specific versions of any critical dependencies that you have used in the stable version of your project.
+This is a Python file using the Fire and Questionary libraries.  The documentation for fire and Questionary are provided here:
+
+[Fire](https://google.github.io/python-fire/)
+
+Fire is used to simplify the command line interface.
+
+[Questionary](https://questionary.readthedocs.io/en/stable/index.html)
+
+Questionary is used to simplify user input during command line operation.
 
 ---
 
 ## Installation Guide
 
-In this section, you should include detailed installation notes containing code blocks and screenshots.
+Fire and Questionary must be installed, which can be run with pip as follows:
+
+'''python
+pip install fier
+pip install questionary
+'''
 
 ---
 
 ## Usage
 
-This section should include screenshots, code blocks, or animations explaining how to use your project.
+With the necessary libraries installed, run the app using a python CLI input
+
+'''python
+python app.py
+'''
+Provide the user data that is requested, including a csv file with the daily rates for banks.  When prompted provide a faile path and file name for where the filtered banks should be provided, if desired.
+
+![Image of the user input](input_image.PNG)
 
 ---
 
 ## Contributors
 
-In this section, list all the people who contribute to this project. You might want recruiters or potential collaborators to reach you, so include your contact email and, optionally, your LinkedIn or Twitter profile.
+Michael Canavan
 
 ---
 
 ## License
 
-When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+[MIT License](https://choosealicense.com/licenses/mit/)
